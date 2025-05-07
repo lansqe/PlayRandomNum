@@ -50,10 +50,19 @@ ws://localhost:8000/ws
 
 ## Тестирование
 
-Протестировать игру можно с помощью: Postman (New -> WebSocket Request)
+Протестировать игру можно с помощью:
 
-[Снимок экрана 2025-05-08 в 00.47.11.png](../../../../var/folders/yq/1jyh8cns5wb8xd5jy_n4wbpm0000gn/T/TemporaryItems/NSIRD_screencaptureui_FXzC4R/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-05-08%20%D0%B2%2000.47.11.png)
+1. В Postman нажмите "New" → "WebSocket Request"
 
+Введите URL: ws://localhost:8000/ws
+
+Нажмите "Connect"
+
+2. Отправьте число:
+
+В поле ввода сообщения введите: {"guess": 50}
+
+Нажмите "Send"
 
 ## Возможные ошибки
 
