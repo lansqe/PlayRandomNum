@@ -27,7 +27,7 @@ async def websocket_endpoint(websocket: WebSocket):
                     await websocket.send_text(result)
 
             except ValueError as e:
-                await websocket.send_text(f"Ошибка: {str(e)}. Отправьте {{'guess': число}}")
+                await websocket.send_text(f'Ошибка: {str(e)}. Отправьте {{"guess": число}}')
 
     except WebSocketDisconnect:
         if websocket in game.players:
