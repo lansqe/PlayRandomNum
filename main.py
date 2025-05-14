@@ -1,7 +1,7 @@
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 
 from app.core.game import Game
-from app.core.message import GuessMessage
+from app.dtos.message import GuessMessage
 from app.core.player import Player
 
 
